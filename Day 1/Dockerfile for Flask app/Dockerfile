@@ -1,6 +1,6 @@
 
 #Pulling base img
-FROM python:3.14-alpine
+FROM python:3.11-alpine
 
 # setting working directory
 WORKDIR /app
