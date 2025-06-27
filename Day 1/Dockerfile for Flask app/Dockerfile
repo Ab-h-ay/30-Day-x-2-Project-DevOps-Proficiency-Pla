@@ -30,4 +30,4 @@ ENV FLASK_APP=app/app.py
 EXPOSE 5000
 
 #Run app
-CMD ["python","app/app.py"]
+CMD ["python","app.py"]
