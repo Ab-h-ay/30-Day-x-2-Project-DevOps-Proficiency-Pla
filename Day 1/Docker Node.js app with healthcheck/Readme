@@ -1,0 +1,33 @@
+# Day 1 - Project B: Node.js Dockerfile with Healthcheck
+
+## 🧠 Objective
+Containerize a Node.js app using a Dockerfile with proper healthcheck.
+
+## 🛠️ Stack
+- Node.js 18 (Alpine)
+- Express.js
+- Docker
+
+## 🚀 How to Run
+```bash
+docker build -t node-docker-app .
+docker run -d -p 3000:3000 node-docker-app
+
+30-day-devops-challenge/
+├── day01-docker-flask-app/
+├── day01-docker-node-app/
+│   ├── app/
+│   │   ├── index.js
+│   │   └── package.json
+│   ├── Dockerfile
+│   └── README.md
+
+# Go to project folder
+cd day01-docker-node-app
+
+# Build image
+docker build -t node-docker-app .
+
+# Run container
+docker run -d -p 3000:3000 node-docker-app
+
